@@ -2,7 +2,7 @@
 # run: docker run -p 9080:8080 -ti --rm $(basename $(pwd))
 
 FROM python:3.6-alpine
-EXPOSE 8080/tcp
+EXPOSE 8081/tcp
 
 # For non-Alpine / Busybox containers
 #RUN adduser --disabled-password --gecos 'application runner' app
